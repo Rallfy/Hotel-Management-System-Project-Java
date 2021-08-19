@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_pages.ClientForumController">
+   <children>
+      <ImageView fx:id="imageLogoReverse" fitHeight="500.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/logo_upsitedown.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="200.0" layoutY="-1.0" prefHeight="80.0" prefWidth="500.0" style="-fx-background-color: #72fffa;">
+         <children>
+             <Button layoutX="452.0" layoutY="2.0" mnemonicParsing="false" onAction="#minimizeButtonOnAction" prefHeight="18.0" prefWidth="22.0" style="-fx-background-color: #FFCC99;" text="-" />
+             <Button fx:id="closeButton" layoutX="474.0" layoutY="2.0" mnemonicParsing="false" onAction="#closeButtonOnAction" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: red;" text="X" />
+         </children>
+      </AnchorPane>
+      <TextField id="tfNume" fx:id="tfNume" layoutX="272.0" layoutY="171.0" prefHeight="25.0" prefWidth="235.0" promptText="Introduce-ti numele" />
+      <Label layoutX="205.0" layoutY="174.0" prefHeight="20.0" prefWidth="63.0" style="-fx-alignment: LEFT;" text="NUME">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <Label layoutX="203.0" layoutY="210.0" prefHeight="20.0" prefWidth="63.0" style="-fx-alignment: LEFT;" text="PRENUME">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="203.0" layoutY="250.0" prefHeight="17.0" prefWidth="63.0" style="-fx-alignment: LEFT;" text="VARSTA">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="203.0" layoutY="286.0" prefHeight="17.0" prefWidth="63.0" style="-fx-alignment: LEFT;" text="CNP">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="203.0" layoutY="323.0" prefHeight="17.0" prefWidth="63.0" style="-fx-alignment: LEFT;" text="GENUL">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <TextField id="tfPrenume" fx:id="tfPrenume" layoutX="272.0" layoutY="208.0" prefHeight="25.0" prefWidth="235.0" promptText="Introduce-ti prenumele" />
+      <TextField id="tfVarsta" fx:id="tfVarsta" layoutX="272.0" layoutY="246.0" prefHeight="25.0" prefWidth="235.0" promptText="Introduce-ti varsta" />
+      <TextField id="tfCnp" fx:id="tfCnp" layoutX="272.0" layoutY="282.0" prefHeight="25.0" prefWidth="235.0" promptText="Introduce-ti CNP-ul" />
+      <TextField id="tfGen" fx:id="tfGen" layoutX="272.0" layoutY="319.0" prefHeight="25.0" prefWidth="235.0" promptText="Introduce-ti genul" />
+      <Label layoutX="203.0" layoutY="91.0" prefHeight="56.0" prefWidth="475.0" style="-fx-alignment: center;" text="Completati spatile de mai jos pentru a finaliza procesul de rezervare al camerei." textFill="RED">
+      <font>
+         <Font name="System Bold Italic" size="12.0" />
+      </font>
+      </Label>
+      <Button fx:id="rezervaAcumButton" layoutX="279.0" layoutY="377.0" mnemonicParsing="false" onAction="#RezervaAcumButtonOnAction" prefHeight="25.0" prefWidth="222.0" style="-fx-background-color: #72fffa;" text="Rezerva acum!">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="profileImage" fitHeight="150.0" fitWidth="154.0" layoutX="533.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/profile_image.png" />
+         </image></ImageView>
+      <Label fx:id="avertismentLabel" layoutX="214.0" layoutY="416.0" prefHeight="17.0" prefWidth="450.0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="9.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

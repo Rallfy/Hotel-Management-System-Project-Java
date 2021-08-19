@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_pages.MainPageController">
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ECECE7;" BorderPane.alignment="CENTER">
+            <Button fx:id="saButton" layoutX="125.0" layoutY="346.0" mnemonicParsing="false" onAction="#handleSwitchStageSaButton" prefHeight="13.0" prefWidth="351.0" style="-fx-background-color: #745340;" text="SUNT ANGAJAT">
+            <font>
+               <Font name="Candara Bold" size="12.0" />
+            </font></Button>
+            <AnchorPane layoutX="1.0" prefHeight="100.0" prefWidth="600.0">
+                <ImageView fx:id="bannerImageView" fitHeight="100.0" fitWidth="600.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                    <Image url="@../../../images/banner.jpg" />
+                </ImageView>
+                <Button fx:id="closeButton" layoutX="574.0" layoutY="2.0" mnemonicParsing="false" onAction="#closeButtonOnAction" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: red;" text="X" />
+                <Button layoutX="552.0" layoutY="2.0" mnemonicParsing="false" onAction="#minimizeButtonOnAction" prefHeight="18.0" prefWidth="22.0" style="-fx-background-color: #FFCC99;" text="-" />
+            </AnchorPane>
+         <AnchorPane layoutX="32.0" layoutY="112.0" prefHeight="212.0" prefWidth="538.0" style="-fx-background-color: #72fffa;">
+            <children>
+               <ChoiceBox fx:id="choiceBox" layoutX="61.0" layoutY="29.0" prefHeight="25.0" prefWidth="288.0" />
+               <Button fx:id="rezervaCameraButton" layoutX="402.0" layoutY="54.0" mnemonicParsing="false" onAction="#rezervaCameraButtonOnAction" text="REZERVA CAMERA">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font>
+               </Button>
+               <DatePicker fx:id="datePicker" layoutX="61.0" layoutY="66.0" />
+               <Label fx:id="rezervaMessageLabel" layoutX="59.0" layoutY="95.0" prefHeight="23.0" prefWidth="420.0" textFill="RED">
+                  <font>
+                     <Font name="System Bold Italic" size="11.0" />
+                  </font></Label>
+            </children>
+         </AnchorPane>
+        </AnchorPane>
+    </center>
+</BorderPane>
