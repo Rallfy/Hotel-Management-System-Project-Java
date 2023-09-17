@@ -2,13 +2,14 @@
 
 Welcome to the Java OOP Hotel Management System project! This repository contains a Java-based Object-Oriented Programming (OOP) implementation of a Hotel Management System. This system is designed to help manage various hotel-related operations efficiently.
 
-Table of Contents
-Introduction
-Features
-Getting Started
-Usage
-Contributing
-License
+1.Table of Contents
+2.Introduction
+3.Features
+4.Getting Started
+5.Usage
+6.Contributing
+7.License
+
 Introduction
 The Hotel Management System is a console-based application developed using Java and OOP principles. It allows hotel staff to manage rooms, guests, reservations, and billing, making it easier to maintain and operate a hotel effectively.
 
@@ -23,9 +24,6 @@ Getting Started
 To get started with this Hotel Management System, follow these steps:
 
 Clone the repository to your local machine:
-
-bash
-Copy code
 git clone <repository_url>
 Open the project in your preferred Java development environment (e.g., IntelliJ IDEA, Eclipse, or any text editor).
 
