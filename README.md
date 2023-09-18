@@ -58,8 +58,20 @@ Feel free to explore the system and use it to manage hotel operations efficientl
 Contributing
 We welcome contributions to improve this Hotel Management System. If you have any ideas, bug fixes, or enhancements, please open an issue or submit a pull request. Make sure to follow the code of conduct when contributing.
 
-License
-This project is licensed under the MIT License, which means you are free to use and modify the code for your purposes. Please review the license file for more details.
+
+App Screenshots
+
+Take a closer look at our app's key features and user interface through the following screenshots. These images provide a visual overview of the app's functionality and design, showcasing the user experience you can expect.
+
+Screenshot 1: Home Page
+![image](https://github.com/Rallfy/JAVA-OOP----Hotel-Management-System-Project----/assets/44873170/c19fd11d-e94b-40fa-983b-bc62a5ba8432)
+
+Screenshot 2: Room Status
+![image](https://github.com/Rallfy/JAVA-OOP----Hotel-Management-System-Project----/assets/44873170/1563bc7e-251c-4bfb-ae9a-e2018937b552)
+
+Screenshot 3: Check-in Details
+![image](https://github.com/Rallfy/JAVA-OOP----Hotel-Management-System-Project----/assets/44873170/a9909ef1-7f6b-4ce6-a80b-c2826c28aaab)
+
 
 Enjoy managing your hotel efficiently with our Java OOP Hotel Management System! If you have any questions or need assistance, feel free to reach out.
 
