@@ -1,4 +1,4 @@
-# JAVA-OOP----Hotel-Management-System-Project----
+#--Hotel-Management-System-Project-- Java
 
 Welcome to the Java OOP Hotel Management System project! This repository contains a Java-based Object-Oriented Programming (OOP) implementation of a Hotel Management System. This system is designed to help manage various hotel-related operations efficiently.
 
