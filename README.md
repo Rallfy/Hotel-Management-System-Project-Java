@@ -1,78 +1,105 @@
-#--Hotel-Management-System-Project-- Java
+# Hotel Management System — Java (OOP)
 
-Welcome to the Java OOP Hotel Management System project! This repository contains a Java-based Object-Oriented Programming (OOP) implementation of a Hotel Management System. This system is designed to help manage various hotel-related operations efficiently.
+This repository contains a Java-based console application designed using Object-Oriented Programming (OOP) principles to manage key hotel operations such as room booking, guest records, reservations, and billing. The project is ideal for learning Java OOP through a practical example.
 
-1. Table of Contents
-2. Introduction
-3. Features
-4. Getting Started
-5. Usage
-6. Contributing
-7. License
+---
 
-Introduction
-The Hotel Management System is a console-based application developed using Java and OOP principles. It allows hotel staff to manage rooms, guests, reservations, and billing, making it easier to maintain and operate a hotel effectively.
+## Table of Contents
 
-Features
-Room Management: Add, edit, and remove rooms with details like room type, price, and availability.
-Guest Management: Register and maintain guest information.
-Reservation Management: Create, modify, or cancel reservations, check room availability, and generate bills.
-Billing: Calculate and generate bills for guests based on their stay duration and room charges.
-Data Persistence: Store data in text files to ensure data integrity between sessions.
-User-friendly Interface: Simple and intuitive console interface for ease of use.
-Getting Started
-To get started with this Hotel Management System, follow these steps:
+1. Introduction  
+2. Features  
+3. Getting Started  
+4. Usage  
+5. Screenshots  
+6. Contributing  
+7. License  
 
-Clone the repository to your local machine:
-git clone <repository_url>
-Open the project in your preferred Java development environment (e.g., IntelliJ IDEA, Eclipse, or any text editor).
+---
 
-Compile and run the main application file, such as HotelManagementApp.java.
+## 1. Introduction
 
-Follow the on-screen instructions to navigate and use the Hotel Management System.
+The Hotel Management System is a console-based application built with core Java. It is designed to simulate basic hotel operations and demonstrate modular design using classes, encapsulation, inheritance, and other OOP concepts.
 
-Usage
-The Hotel Management System is designed to be easy to use. Here are some common tasks you can perform:
+---
 
-Room Management:
+## 2. Features
 
-Add new rooms.
-Update room details.
-Remove rooms.
-Guest Management:
+- **Room Management**: Add, update, or remove room entries (room type, price, availability).
+- **Guest Management**: Register guests, update details, and manage check-ins/check-outs.
+- **Reservation System**: Book rooms, modify/cancel reservations, and check availability.
+- **Billing Module**: Generate bills based on room rates and duration of stay.
+- **Data Persistence**: Store data in `.txt` files to retain it across sessions.
+- **Simple Console UI**: Intuitive text-based navigation and prompts.
 
-Register new guests.
-Update guest information.
-Check-in and check-out guests.
-Reservation Management:
+---
 
-Create new reservations.
-Modify or cancel reservations.
-Check room availability.
-Billing:
+## 3. Getting Started
 
-Generate bills for guests.
-Calculate charges based on stay duration and room rates.
-Feel free to explore the system and use it to manage hotel operations efficiently.
+### Prerequisites:
+- JDK 8 or higher
+- A Java IDE (e.g., IntelliJ IDEA, Eclipse) or terminal with `javac`
 
-Contributing
-We welcome contributions to improve this Hotel Management System. If you have any ideas, bug fixes, or enhancements, please open an issue or submit a pull request. Make sure to follow the code of conduct when contributing.
+### Steps:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Rallfy/JAVA-OOP----Hotel-Management-System-Project----
+
+ 2. Open the project in your Java IDE or navigate to the folder in terminal.
+
+Compile and run the main application:
+
+```bash
+javac HotelManagementApp.java
+java HotelManagementApp
+```
+
+Follow the console instructions to use the system.
 
 
-App Screenshots
+## 4. Usage
 
-Take a closer look at our app's key features and user interface through the following screenshots. These images provide a visual overview of the app's functionality and design, showcasing the user experience you can expect.
+Here are the main tasks you can perform:
 
-Screenshot 1: Home Page
-![image](https://github.com/Rallfy/JAVA-OOP----Hotel-Management-System-Project----/assets/44873170/c19fd11d-e94b-40fa-983b-bc62a5ba8432)
+### Room Management
+- Add or delete rooms
+- Update room prices and availability
 
-Screenshot 2: Room Status
-![image](https://github.com/Rallfy/JAVA-OOP----Hotel-Management-System-Project----/assets/44873170/1563bc7e-251c-4bfb-ae9a-e2018937b552)
+### Guest Management
+- Register new guests
+- Update guest records
+- Perform check-in and check-out
 
-Screenshot 3: Check-in Details
-![image](https://github.com/Rallfy/JAVA-OOP----Hotel-Management-System-Project----/assets/44873170/a9909ef1-7f6b-4ce6-a80b-c2826c28aaab)
+### Reservation Handling
+- Create or cancel a booking
+- View all active reservations
 
+### Billing
+- Calculate total charges based on stay duration
+- Generate and display final bills
 
-Enjoy managing your hotel efficiently with our Java OOP Hotel Management System! If you have any questions or need assistance, feel free to reach out.
+---
 
-Happy coding! 🏨🛏️🧾
+## 5. App Screenshots
+
+### Home Page
+![Home Page](https://github.com/Rallfy/JAVA-OOP----Hotel-Management-System-Project----/assets/44873170/c19fd11d-e94b-40fa-983b-bc62a5ba8432)
+
+### Room Status View
+![Room Status](https://github.com/Rallfy/JAVA-OOP----Hotel-Management-System-Project----/assets/44873170/1563bc7e-251c-4bfb-ae9a-e2018937b552)
+
+### Check-In Details
+![Check-In Details](https://github.com/Rallfy/JAVA-OOP----Hotel-Management-System-Project----/assets/44873170/a9909ef1-7f6b-4ce6-a80b-c2826c28aaab)
+
+---
+
+## 6. Contributing
+
+Contributions are welcome. If you'd like to improve the system, fix bugs, or add features, feel free to fork the repository and submit a pull request. Please follow standard Java coding conventions and keep commits clear and descriptive.
+
+---
+
+## 7. License
+
+This project is licensed for academic and non-commercial use.  
+Contact the repository maintainer for other usage requests.
+
